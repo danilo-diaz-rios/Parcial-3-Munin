@@ -11,9 +11,9 @@ Usaremos el siguiente comando en nuestra consola:
                
                docker build -t server:16.04 .
 
-![alt-text](imagenes/creacion)
+![alt-text](imagenes/creacion.png)
 
-![alt-text](imagenes/verificacion)
+![alt-text](imagenes/verificacion.png)
 
 ## Segundo paso, despliege
 
@@ -23,7 +23,7 @@ Usamos el siguiente comando en nuestra consola:
 
 docker run -d -P --name danilo_web_server -p 2221:22 -p 80:80 server:16.04
 
-![alt-text](imagenes/parte3)
+![alt-text](imagenes/parte3.png)
 
 despues le damos permisos a la llave con el comando:
 

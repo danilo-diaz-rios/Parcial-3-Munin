@@ -15,7 +15,7 @@
 
 `ansible-playbook -i hosts install_apache.yml`
 
-![alt-text](/Images/1.png)
+![alt-text](Images/1.png)
 
 ## Instalacion de Munin
 

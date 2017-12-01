@@ -25,7 +25,7 @@ Intalamos Munin en el name_web_server
 
 `ansible-playbook -i hosts install_munin.yml`
 
-![alt-text](/Images/2.png)
+![alt-text](Images/2.png)
 
 ## Iniciar el servicio de Apache
 
@@ -33,15 +33,15 @@ Intalamos Munin en el name_web_server
 
 `service apache2 start`
 
-![alt-text](/Images/3.png)
+![alt-text](Images/3.png)
 
 Despues ingresamos nuevamente por medio del navegador web a la ruta `127.0.0.1`
 
-![alt-text](/Images/4.png)
+![alt-text](Images/4.png)
 
 Ahora dese otra pestaña ingresamos al index de munin previamente configurado
 
-![Munin](/Images/.png)
+![Munin](Images/.png)
 
 **Nota: Una vez dentro del servidor debemos asegurarnos de actualizar el servidor y tener instalado un editor de texto:**
 
